@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Forms</title>
+
+  </head>
+  <body>
+<!--To use a form in an html site-->
+  <form>
+<fieldset> <!--This opens the form table-->
+
+<legend>Profile Info</legend><!--the legend tag works like the title tag but works within the fieldset tag. It gives you the title of the html form-->
+<label>Name</label><!--the label is just like how to accept data in c++-->
+<input type="text" placeholder="your name here"<br><!--this is just like Cin in c++-->
+<br>
+
+<label>Email</label>
+<input type="email" placeholder="type in your email here"<br>
+<br>
+
+<label>Password</label>
+<input type="Password"><!--passwords do not necessarily need a placeholder cos they are confidential-->
+<br><br>
+<label>Gender </label><br>
+<input type="radio" name="gender"> Male<br>
+<input type="radio" name="gender"> Female
+
+<br><br>
+
+<label>Type of computer</label><br>
+<select>
+<option selected disabled>Select...</option>
+<option>I have a laptop</option>
+<option> I have a desktop</option>
+<option> I have tablet</option>
+</select>
+<br><br>
+
+<label>Tell us your Age</label><br>
+<select>
+<option>0--20</option>
+<option>20--40</option>
+  <option>40--60</option>
+  <option>60+</option>
+</select>
+<br><br>
+
+<label>Share your comments</label><br>
+<textarea rows="10" cols="70"></textarea>
+<br><br>
+
+<input type="button" value="previous">
+<input type="button" value="save">
+<input type="submit"  value="save and continue">
+
+  </fieldset>
+
+  </form>
+
+  </body>
+
+  </html>
